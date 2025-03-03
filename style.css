@@ -1,0 +1,45 @@
+body{
+	background-color: blue;
+}
+header{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#nar{
+	text-align: center;
+	color: blue;
+	background-color: red;
+	width: 100px;
+}
+#changer{
+	text-align: center;
+	background-color: green;
+	color: red;
+	width: 100%;
+}
+#exchangeRate{
+	color: white;
+	background-color: red;
+	font-size: 25px;
+	height: 30px;
+}
+#rub{
+	color: white;
+}
+#rub_to_amd{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#up_down{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 50px;
+	background-color: red;
+	margin-top: 20px;
+	border-block: black 1px solid;
+	font-size: 10px;
+}
